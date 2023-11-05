@@ -1,0 +1,62 @@
+
+/* Styling af hele siden */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styling af vores form element */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Styling af vores tekst-inputfelter */
+input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 200px;
+}
+
+/* Styling af submit-knap */
+input[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px; /* Afrunder hjørnerne */
+    border: none;
+    background-color: #5cb85c; /* Sætter bagrundsfarven for knappen til grøn */
+    color: white;
+    cursor: pointer; /* Ændre musen til en pointer, når der holdes over knappen. */
+}
+
+/* Styling af submit knappen når brugeren holder musen over */
+input[type="submit"]:hover {
+    background-color: #4cae4c; /* Skifter farve til en mørkere grøn, når musen er over knappen. */
+}
+h1 {
+    color: #333;
+}
+
+/* Styling af liser */ 
+ul {
+    list-style: none; /* Fjener punkttegn fra lister */
+    padding: 0;
+}
+
+/* Styling af vores listeelementer */ 
+li {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px; /*Afrunder hjørnerne. */
+    margin-bottom: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Tilføjer en skyggeeffekt til listerne */
+}

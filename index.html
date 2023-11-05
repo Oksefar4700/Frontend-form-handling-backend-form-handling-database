@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Send Data</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linker css til html siden-->
+</head>
+<body>
+    <form action="/submit-data" method="POST"> <!-- Starter en form der sender data til serveren, når den startes.-->
+        <input type="text" name="username" placeholder="Enter your username" required> <!-- Brugeren kan indtaste sit brugernavn, og vi sørger for at der ikke kan indsendes et tomt felt.-->
+        <input type="submit" value="Submit"> <!-- Vores knap der sørger for, at indsende formularen til serveren. -->
+    </form>
+    <h1>Users</h1>
+    <ul id="usersList"></ul> <!-- Brugernavene vil blive indsat her-->
+    <script src="/client.js"></script>
+</body>
+</html>
